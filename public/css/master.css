@@ -1,0 +1,27 @@
+/* I need my CSS */
+/*New Post view*/
+.autosizeImg {
+  width: 25%;
+}
+
+.content {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#btnEnviar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#div_file {
+  position: relative;
+}

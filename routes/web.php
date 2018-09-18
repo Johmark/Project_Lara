@@ -19,4 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'NavegationControllers@explorer');
-Route::get('/add', "NavegationControllers@newPost");
+Route::get('/add', 'NavegationControllers@newPost');
+Route::get('/my', 'NavegationControllers@profile');

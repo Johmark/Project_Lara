@@ -28,4 +28,10 @@ class NavegationControllers extends Controller
       $title = 'New Post';
       return view('newPost')->with('title', $title);
     }
+
+    public function profile()
+    {
+      $title = $_SESSION['user'];
+      return view('profile')->with('title', $title);
+    }
 }
